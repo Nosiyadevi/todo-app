@@ -1,19 +1,32 @@
-# 📝 To-Do List App (Full Stack)
+# 📝 Full-Stack To-Do List App
+
+A simple and responsive To-Do List application built with **HTML, CSS, JS (Frontend)**, **Node.js + Express (Backend)**, and **MySQL (Database)**.
+
+---
 
 ## 🚀 Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js + Express
-- Database: MySQL
+![Frontend](https://img.shields.io/badge/Frontend-HTML%2C%20CSS%2C%20JS-blue) 
+![Backend](https://img.shields.io/badge/Backend-Node.js-green) 
+![Database](https://img.shields.io/badge/Database-MySQL-orange)
+
+---
+
+## 📸 Screenshots
+![App Screenshot](assets/screenshot1.png)
+
+---
 
 ## ⚡ Features
-- Add new tasks
-- View task list
-- Delete tasks
+- ✅ Add new tasks  
+- 👀 View task list  
+- ❌ Delete tasks  
+- 📂 Data stored in MySQL  
 
-## ▶️ How to Run
-1. Clone repo
-2. Setup database:
-   ```sql
-   CREATE DATABASE todo_db;
-   USE todo_db;
-   CREATE TABLE tasks (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255));
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/todo-app.git
+
